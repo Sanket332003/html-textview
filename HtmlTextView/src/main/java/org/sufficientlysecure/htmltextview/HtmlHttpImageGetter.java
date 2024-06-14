@@ -48,7 +48,7 @@ public class HtmlHttpImageGetter implements ImageGetter {
 
     public HtmlHttpImageGetter(TextView textView) {
         this.container = textView;
-        this.matchParentWidth = false;
+        this.matchParentWidth = true;
     }
 
     public HtmlHttpImageGetter(TextView textView, String baseUrl) {
